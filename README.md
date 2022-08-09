@@ -43,12 +43,11 @@ h6 {
 
 > #### Pages
 
-- [ ] Home\
-- [ ] About: `/about`\
-- [ ] Our Works: `/our-works`\
-- [ ] Careers: `/careers`\
-- [ ] Testimonials: `/testimonials`\
-- [ ] Blog: `/blog`\
-- [ ] Contact: `/contact-us`\
+- [ ] Home: `/home`
+- [ ] About: `/about`
+- [ ] Our Works: `/our-works`
+- [ ] Careers: `/careers`
+- [ ] Testimonials: `/testimonials`
+- [ ] Blog: `/blog`
+- [ ] Contact: `/contact-us`
 - [ ] Project: `/project/single-post`
-
