@@ -11,7 +11,6 @@
 5. [Testimonials](/testimonials)
 6. [Blog](/blog)
 7. [Contact](/contact-us)
-8. [Project/:name](/project/single-post)
 
 > #### Fonts Family
 
@@ -41,3 +40,14 @@ h6 {
 - Primary Accent Color: `#f8ad23`
 - Secondary Background Color: `#f5f5f5`
 - Heading Text Color: `#282828`
+
+> #### Pages
+
+[ ] Home: `/home`\
+[ ] About: `/about`\
+[ ] Our Works: `/our-works`\
+[ ] Careers: `/careers`\
+[ ] Testimonials: `/testimonials`\
+[ ] Blog: `/blog`\
+[ ] Contact: `/contact-us`\
+[ ] Project: `/project/single-post`
