@@ -1,6 +1,6 @@
 # <h1 align="center"> The Interior Lab </h1>
 
-> ### Navigation Bar:
+> #### Navigation Bar:
 
 1. [Home](/home)
 2. [About](/about)
@@ -11,8 +11,9 @@
 5. [Testimonials](/testimonials)
 6. [Blog](/blog)
 7. [Contact](/contact-us)
+8. [Project/:name](/project/single-post)
 
-> ### Fonts Family
+> #### Fonts Family
 
 ```css
 body {
@@ -34,10 +35,9 @@ h6 {
 }
 ```
 
-> ### Color Palette
+> #### Color Palette
 
-```css
-
-  color: #555;
-
-```
+- Text Color: `#555`
+- Primary Accent Color: `#f8ad23`
+- Secondary Background Color: `#f5f5f5`
+- Heading Text Color: `#282828`
