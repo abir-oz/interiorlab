@@ -1,0 +1,10 @@
+.header {
+  background-color: #f1f1f1;
+  padding: 20px;
+  text-align: center;
+}
+
+.header .header__menu .header__menu-item {
+  display: inline-block;
+  margin: 0 10px;
+}
