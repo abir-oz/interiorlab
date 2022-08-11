@@ -3,7 +3,7 @@ import { FaFacebook } from 'react-icons/fa'
 
 const TopBar = () => {
     return (
-        <div className="w-full py-4 bg-gray-100">
+        <div className="w-full py-4 bg-gray-100 font-sans text-sm leading-normal text-gray-800">
             <div className="container">
                 <div className="flex flex-col sm:flex-row justify-center items-center">
                     <div className="xl:w-8/12 w-full">
