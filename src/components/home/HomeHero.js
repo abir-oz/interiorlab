@@ -28,7 +28,7 @@ const HomeHero = () => {
                                     <h3 className=' font-medium text-[1.8rem] font-display leading-none mb-5'>{item.title}</h3>
                                     <p className='text-base font-medium font-sans'>{item.excerpt}</p>
                                     <div className='mt-16'>
-                                        <a href='/' className='uppercase xl:px-8 xl:py-6 px-6 py-4 font-bold text-base border rounded-full'>
+                                        <a href='/' className='capitalize xl:px-8 xl:py-6 px-6 py-4 font-bold text-base border rounded-full hover:bg-white hover:text-gray-700'>
                                             {item.buttonText}
                                         </a>
                                     </div>
