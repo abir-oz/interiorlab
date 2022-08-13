@@ -17,7 +17,7 @@ const MenuMobile = () => {
     }
     return (
         <nav role="navigation"
-            className="sticky flex justify-between items-center top-0 px-4 bg-white z-40  lg:hidden py-3 font-display">
+            className="flex justify-between items-center top-0 px-4 bg-white z-40  lg:hidden py-3 font-display">
 
             <div className='mx-auto'>
                 <a href="/">

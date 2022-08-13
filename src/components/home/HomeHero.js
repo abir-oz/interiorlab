@@ -1,6 +1,8 @@
 import React from 'react';
+import postData from '../../data/postData';
 
 const HomeHero = () => {
+    console.log(postData);
     return (
         <>
             <div className="flex flex-wrap justify-center items-center xl:mx-0 mx-5 mt-32  px-0 not-italic font-display tracking-wider">
@@ -15,29 +17,26 @@ const HomeHero = () => {
                     </div>
                 </div>
             </div>
-            <div className="w-screen flex flex-wrap text-white my-10">
-                <div className="w-1/2 bg-[url('https://www.theinteriorlab.com.sg/wp-content/uploads/2020/02/the-interior-la-interior-design-singapore.jpg')] bg-cover bg-no-repeat bg-center">
-                    <div className='p-20 m-10'>
-                        <h3 className=' font-medium text-[1.8rem] font-display leading-none mb-5'>We offer Interior design solutions for our clients</h3>
-                        <p className='text-base font-medium font-sans'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates delectus facilis fuga accusantium, sit rerum placeat ipsam pariatur quo debitis itaque unde saepe optio, deleniti neque qui vero consequatur cupiditate.</p>
-                        <div className='mt-16'>
-                            <a href='/' className='uppercase px-8 py-6 font-bold text-base border rounded-full'>
-                                Learn more
-                            </a>
-                        </div>
-                    </div>
-                </div >
-                <div className="w-1/2 bg-[url('https://www.theinteriorlab.com.sg/wp-content/uploads/2020/02/the-interior-la-interior-design-singapore.jpg')] bg-cover bg-no-repeat bg-center">
-                    <div className='p-20 m-10'>
-                        <h3 className=' font-medium text-[1.8rem] font-display leading-none mb-5'>We offer Interior design solutions for our clients</h3>
-                        <p className='text-base font-medium font-sans'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates delectus facilis fuga accusantium, sit rerum placeat ipsam pariatur quo debitis itaque unde saepe optio, deleniti neque qui vero consequatur cupiditate.</p>
-                        <div className='mt-16'>
-                            <a href='/' className='uppercase px-8 py-6 font-bold text-base border rounded-full'>
-                                Learn more
-                            </a>
-                        </div>
-                    </div>
-                </div >
+
+
+            <div className="w-full flex flex-wrap text-white my-10">
+                {
+                    postData.map((item, index) => {
+                        return (
+                            <div key={index} className={`md:w-1/2 w-full bg-cover bg-no-repeat bg-center`} style={{ backgroundImage: `url("${item.thumb}")` }}>
+                                <div className='lg:p-20 lg:m-10 m-5 p-10'>
+                                    <h3 className=' font-medium text-[1.8rem] font-display leading-none mb-5'>{item.title}</h3>
+                                    <p className='text-base font-medium font-sans'>{item.excerpt}</p>
+                                    <div className='mt-16'>
+                                        <a href='/' className='uppercase xl:px-8 xl:py-6 px-6 py-4 font-bold text-base border rounded-full'>
+                                            {item.buttonText}
+                                        </a>
+                                    </div>
+                                </div>
+                            </div >
+                        )
+                    })
+                }
             </div >
         </>
     );
