@@ -6,7 +6,7 @@ import logo from '../../assets/logo.jpg'
 const MenuDesktop = () => {
     return (
         <div role="navigation"
-            className="w-full font-display hidden md:flex">
+            className="w-full font-display hidden lg:flex">
             <div className="container mx-auto my-0 py-[15px]">
                 <div className="flex flex-row justify-center items-center">
                     <div className="w-full xl:w-4/12 px-[15px]">
@@ -20,7 +20,7 @@ const MenuDesktop = () => {
                         <nav className="relative py-[15px] z-[1]">
                             <ul className="list-none font-[700] leading-none p-0 -mx-2 text-black uppercase">
                                 {menuConfig.map((item, index) => (
-                                    <li className="inline-block mx-2 " key={index}><a className='hover:underline decoration-orange-600 decoration-1 underline-offset-4' href={item.path}>{item.title}</a></li>
+                                    <li className="inline-block mx-2 " key={index}><a className='hover:underline decoration-orange-600 decoration-[1.5px] underline-offset-[4px] transition-all duration-500' href={item.path}>{item.title}</a></li>
                                 ))}
                             </ul>
 

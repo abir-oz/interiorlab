@@ -6,7 +6,7 @@ module.exports = {
     fontFamily: {
       display: ['oswald'],
       sans: ['Open Sans', "Helvetica", "Arial", "sans-serif"]
-    }
+    },
   },
   plugins: [],
 }

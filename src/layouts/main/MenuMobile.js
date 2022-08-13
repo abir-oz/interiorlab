@@ -17,15 +17,15 @@ const MenuMobile = () => {
     }
     return (
         <nav role="navigation"
-            className="sticky flex justify-between items-center top-0 px-4 bg-white z-40 border-b border-gray-5 border-opacity-5 shadow-sm md:hidden py-3 font-display">
+            className="sticky flex justify-between items-center top-0 px-4 bg-white z-40  lg:hidden py-3 font-display">
 
-            <div>
+            <div className='mx-auto'>
                 <a href="/">
-                    <img src={logo} alt="logo" className="h-12" />
+                    <img src={logo} alt="logo" className="h-28" />
                 </a>
             </div>
 
-            <button className="p-" id="nav_open" onClick={toggleNav}>
+            <button className="absolute -top-8 right-7" id="nav_open" onClick={toggleNav}>
                 <AiOutlineMenuFold className='text-2xl' />
             </button>
 

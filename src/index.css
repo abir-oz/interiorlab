@@ -5,7 +5,7 @@
   font-family: 'oswald';
   src: url(./assets/oswald.ttf) format('truetype');
 }
-
+/* 
 h1,
 h2,
 h3,
@@ -13,4 +13,12 @@ h4,
 h5,
 h6 {
   font-family: Oswald;
+}
+ */
+html {
+  text-size-adjust: 100%;
+}
+
+* {
+  box-sizing: border-box;
 }
