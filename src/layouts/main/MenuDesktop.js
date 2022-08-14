@@ -9,14 +9,14 @@ const MenuDesktop = () => {
             className="w-full font-display hidden lg:flex">
             <div className="container mx-auto my-0 py-[15px]">
                 <div className="flex flex-row justify-center items-center">
-                    <div className="w-full xl:w-4/12 px-[15px]">
+                    <div className="w-full xl:w-4/12 lg:w-3/12 px-[15px]">
                         <div>
                             <a href="index.html">
                                 <img src={logo} alt="logo" className="h-[140px] mx-auto" />
                             </a>
                         </div>
                     </div>
-                    <div className="w-8/12 sm:text-right xl:text-center text-center px-[15px]">
+                    <div className="w-8/12 lg:w-9/12 sm:text-right xl:text-center text-center px-[15px] lg:px-[10px]">
                         <nav className="relative py-[15px] z-[1]">
                             <ul className="list-none font-[700] leading-none p-0 -mx-2 text-black uppercase">
                                 {menuConfig.map((item, index) => (

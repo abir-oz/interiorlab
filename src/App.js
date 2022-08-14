@@ -5,6 +5,7 @@ import MenuDesktop from './layouts/main/MenuDesktop';
 import TopBar from './layouts/main/TopBar';
 import MenuMobile from './layouts/main/MenuMobile';
 import HomeHero from './components/home/HomeHero';
+import Projects from './components/home/Projects';
 
 const App = () => {
 
@@ -14,6 +15,7 @@ const App = () => {
       <MenuMobile />
       <MenuDesktop />
       <HomeHero />
+      <Projects />
     </>
   );
 };

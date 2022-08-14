@@ -15,4 +15,44 @@ const postData = (
     }]
 )
 
-export default postData;
+
+const projectData = ([
+    {
+        title: "37A Pine Lane",
+        category: "Residential - HDB",
+        thumb: "https://i.ibb.co/dPtYdJq/image3.jpg",
+        buttonText: "View Project"
+    },
+    {
+        title: "37A Pine Lane",
+        category: "Residential - HDB",
+        thumb: "https://i.ibb.co/dPtYdJq/image3.jpg",
+        buttonText: "View Project"
+    },
+    {
+        title: "37A Pine Lane",
+        category: "Residential - HDB",
+        thumb: "https://i.ibb.co/dPtYdJq/image3.jpg",
+        buttonText: "View Project"
+    },
+    {
+        title: "37A Pine Lane",
+        category: "Residential - HDB",
+        thumb: "https://i.ibb.co/dPtYdJq/image3.jpg",
+        buttonText: "View Project"
+    },
+    {
+        title: "37A Pine Lane",
+        category: "Residential - HDB",
+        thumb: "https://i.ibb.co/dPtYdJq/image3.jpg",
+        buttonText: "View Project"
+    },
+    {
+        title: "37A Pine Lane",
+        category: "Residential - HDB",
+        thumb: "https://i.ibb.co/dPtYdJq/image3.jpg",
+        buttonText: "View Project"
+    },
+])
+
+export { postData, projectData };

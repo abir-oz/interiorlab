@@ -17,7 +17,7 @@ const MenuMobile = () => {
     }
     return (
         <nav role="navigation"
-            className="flex justify-between items-center top-0 px-4 bg-white z-40  lg:hidden py-3 font-display">
+            className="flex justify-between items-center top-0 px-4 bg-white z-40  lg:hidden py-3 font-display relative">
 
             <div className='mx-auto'>
                 <a href="/">
@@ -25,7 +25,7 @@ const MenuMobile = () => {
                 </a>
             </div>
 
-            <button className="absolute -top-8 right-7" id="nav_open" onClick={toggleNav}>
+            <button className="absolute right-7" id="nav_open" onClick={toggleNav}>
                 <AiOutlineMenuFold className='text-2xl' />
             </button>
 
@@ -39,7 +39,7 @@ const MenuMobile = () => {
 
                 <div className="text-2xl font-bold h-full">
                     <div className="flex flex-col ml-12 mt-20">
-                        <div className="inline-block relative">
+                        <div className="inline-block">
                             {menuConfig.map((item, index) => (
                                 <li key={index} className="relative z-10 text-xl font-light"><a href={item.path}
                                     className="inline-block h-full w-full">{item.title}</a>

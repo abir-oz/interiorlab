@@ -1,8 +1,8 @@
 import React from 'react';
-import postData from '../../data/postData';
+import {postData} from '../../data/postData';
 
 const HomeHero = () => {
-    console.log(postData);
+    // console.log(postData);
     return (
         <>
             <div className="flex flex-wrap justify-center items-center xl:mx-0 mx-5 mt-32  px-0 not-italic font-display tracking-wider">
