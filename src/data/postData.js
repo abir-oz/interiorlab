@@ -1,3 +1,4 @@
+import { FaComments, FaCompressAlt, FaPen, FaPenSquare, FaPhotoVideo, FaUser } from "react-icons/fa";
 
 
 const postData = (
@@ -55,4 +56,38 @@ const projectData = ([
     },
 ])
 
-export { postData, projectData };
+
+const whatWeDo = ([
+    {
+        title: "Project Management",
+        icon: <FaUser />,
+        details: "Proper care and handling of your interior design projects"
+    },
+    {
+        title: "3D Drawing",
+        icon: <FaPhotoVideo />,
+        details: "Detailed and appropriately furnished floor plans for your reference"
+    },
+    {
+        title: "Consulting",
+        icon: <FaComments />,
+        details: "Proper care and handling of your interior design projects"
+    },
+    {
+        title: "Interior Design",
+        icon: <FaPen />,
+        details: "Our workmanship & dedicated services for every project."
+    },
+    {
+        title: "Space Planning",
+        icon: <FaPenSquare />,
+        details: "Accomplish a beautiful, comfortable, and tasteful interior with decent planning"
+    },
+    {
+        title: "Workmanship",
+        icon: <FaCompressAlt />,
+        details: "Only the best, nothing less"
+    },
+])
+
+export { postData, projectData, whatWeDo };

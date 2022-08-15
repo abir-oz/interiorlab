@@ -13,12 +13,12 @@ const Projects = () => (
                             <div className='w-full h-full top-0 left-0 border bg-orange-500 opacity-0 group-hover:opacity-80 transition ease-out delay-150 duration-300 z-10 absolute'></div>
                         </div>
 
-                        <h3 className="uppercase font-display tracking-wider text-base font-bold my-4 group-hover:text-orange-400">
+                        <h3 className="uppercase font-display tracking-wider text-base font-bold my-4 mb-3 group-hover:text-orange-400">
                             <a href={`/${item.title}`}>
                                 {item.title}
                             </a>
                         </h3>
-                        <p className='text-sm uppercase text-gray-500'>{item.category}</p>
+                        <p className='text-xs uppercase m-0 text-gray-500'>{item.category}</p>
                         <div className='group-hover:bg-orange-500 z-50'></div>
 
                     </div>
