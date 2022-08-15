@@ -7,9 +7,9 @@ const Projects = () => (
             projectData.map((item, index) => (
                 <div key={index} className="group lg:w-1/3 sm:w-1/2 w-full relative">
                     <div className='m-2 lg:m-8 text-center'>
-                        <div className='w-full h-full overflow-hidden relative'>
+                        <div className='w-full h-full overflow-hidden relative flex justify-center items-center'>
                             <img className='group-hover:scale-125 transition-all duration-1000 ease-in-out transform z-10' src={item.thumb} alt={item.title} />
-                            <a className='border-2 py-2 px-3 m-2 absolute transition ease-out delay-100 duration-700 bottom-0 right-28 md:right-24 lg:-bottom-6 lg:right-16  xl:bottom-6  xl:right-32 group-hover:-translate-y-20 invisible group-hover:visible text-white z-50' href={`/${item.title}`}>{item.buttonText}</a>
+                            <a className='border-2 py-2 px-3 m-2 absolute transition ease-out delay-100 duration-700 translate-y-16 group-hover:-translate-y-0 invisible group-hover:visible text-white z-50' href={`/${item.title}`}>{item.buttonText}</a>
                             <div className='w-full h-full top-0 left-0 border bg-orange-500 opacity-0 group-hover:opacity-80 transition ease-out delay-150 duration-300 z-10 absolute'></div>
                         </div>
 
