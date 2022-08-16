@@ -7,6 +7,8 @@ import MenuMobile from './layouts/main/MenuMobile';
 import HomeHero from './components/home/HomeHero';
 import Projects from './components/home/Projects';
 import WhatWeDo from './components/home/WhatWeDo';
+import CarouselVideo from './components/home/CarouselVideo';
+import Testimonial from './components/home/Testimonial';
 
 const App = () => {
 
@@ -18,6 +20,8 @@ const App = () => {
       <HomeHero />
       <Projects />
       <WhatWeDo />
+      <CarouselVideo />
+      <Testimonial />
     </>
   );
 };

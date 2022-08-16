@@ -22,7 +22,7 @@ html {
 * {
   box-sizing: border-box;
 }
-
+/* 
 .card-zoom {
   @apply relative flex items-center justify-center m-3 overflow-hidden shadow-xl w-60 h-60 rounded-2xl;
 }
@@ -37,4 +37,44 @@ html {
 }
 .card-zoom:hover .card-zoom-text {
   @apply scale-100;
+} */
+.swiper {
+  @apply m-10;
+}
+.swiper-pagination {
+  @apply mt-6;
+}
+.swiper-pagination-bullet {
+  @apply inline-block w-2 h-2 rounded-full bg-black opacity-50 mx-1;
+}
+.swiper-pagination-bullet-active {
+  @apply bg-orange-500 pl-8;
+}
+
+.swiper-pagination-clickable .swiper-pagination-bullet {
+  @apply cursor-pointer;
+}
+/* 
+.swiper-button-next,
+.swiper-button-prev {
+  @apply flex justify-center items-center text-orange-500 z-10 text-2xl w-10 h-10;
+}
+.swiper-button-next.swiper-button-disabled,
+.swiper-button-prev.swiper-button-disabled {
+  @apply opacity-30 cursor-auto pointer-events-none;
+}
+
+.swiper-button-prev {
+  @apply content-["prev"] bg-[url(./assets/arrow-left.svg)] bg-cover bg-no-repeat absolute -left-8 right-auto top-1/2 z-30;
+}
+.swiper-button-next {
+  @apply content-["next"] bg-[url(./assets/arrow-right.svg)] bg-cover bg-no-repeat absolute -right-8 left-auto top-1/2 z-30;
+}
+ */
+.testimonial {
+  @apply w-10/12 lg:w-3/12 md:w-5/12 bg-gray-300 rounded-lg m-5 relative;
+}
+
+.triangle:after {
+  @apply border-y-gray-300 border-x-transparent content-[''] absolute border-solid block z-10 w-0 left-1/2 text-transparent border-x-[10px] border-t-[10px] border-b-0 -bottom-2;
 }
