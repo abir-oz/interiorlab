@@ -2,7 +2,7 @@ import React from 'react';
 import { projectData } from '../../data/postData';
 const Projects = () => (
 
-    <div className="max-w-screen my-10">
+    <div className="w-full my-10">
         <div className='flex flex-wrap md:mx-8 xl:mx-16 mx-4 justify-center items-center'>{
             projectData.map((item, index) => (
                 <div key={index} className="group lg:w-1/3 sm:w-1/2 w-full relative">

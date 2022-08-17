@@ -1,11 +1,11 @@
 import React from 'react';
-import {postData} from '../../data/postData';
+import { postData } from '../../data/postData';
 
 const HomeHero = () => {
     // console.log(postData);
     return (
         <>
-            <div className="flex flex-wrap justify-center items-center xl:mx-0 mx-5 mt-32  px-0 not-italic font-display tracking-wider">
+            <div className="flex flex-wrap justify-center items-center xl:mx-0 mx-5 xl:mt-32 lg:mt-24 md:mt-16 mt-10  px-0 not-italic font-display tracking-wider">
                 <div className='text-left'>
                     <h5 className=' font-bold text-[18px] xl:text-2xl mb-0 mx-0 leading-none'>Welcome to</h5>
                     <h2 className='font-bold xl:text-[3.25rem] text-[32px] mt-1 mx-0 leading-normal'>The Interior Lab – The Chemistry of Arts.</h2>
