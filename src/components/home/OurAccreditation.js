@@ -9,7 +9,7 @@ const OurAccreditation = () => {
     return (
         <div className="w-full mb-20">
             <div className='xl:mx-40 md:mx-10 mx-2 text-center relative'>
-                <h3 className='uppercase m-0 font-bold font-display text-lg tracking-wide'>Media Feature</h3>
+                <h3 className='uppercase m-0 font-bold font-display text-lg tracking-wide'>Our Accreditation</h3>
                 <Swiper
                     modules={[Navigation, Pagination, Lazy, Autoplay]}
                     spaceBetween={5}
