@@ -14,7 +14,6 @@ const CarouselVideo = () => {
                     modules={[Navigation, Pagination, Lazy, Autoplay]}
                     spaceBetween={50}
                     slidesPerView={3}
-                    draggable={true}
                     pagination={{
                         clickable: true,
                     }}
