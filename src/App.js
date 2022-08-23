@@ -1,8 +1,7 @@
-import './App.css';
-
 import React from 'react';
-import Home from './sitePages/Home';
-import MainLayout from './layouts/main/Index';
+import './App.css';
+import MainLayout from './layouts/main/MainLayout';
+import Home from './pages/Home';
 
 const App = () => {
 

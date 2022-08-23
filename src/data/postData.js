@@ -150,4 +150,31 @@ const mediaFeature = ([
     { thumb: "https://i.ibb.co/FgLtwfn/zaobao-logo-dd2adf93310b326af901a5fb7e3584eab782872d298cb852c774a0a0635dba2c-1030x343-1.png" }
 ])
 
-export { postData, projectData, whatWeDo, testimonial, videos, mediaFeature };
+const footerData = ([
+    {
+        title: "Set Square",
+        items: [
+            { name: "About Us", url: "/#" },
+            { name: "Contact Us", url: "/#" },
+            { name: "FAQ", url: "/#" },
+        ]
+    },
+    {
+        title: "Legal",
+        items: [
+            { name: "Privacy Policy", url: "/#" },
+            { name: "Terms of Use", url: "/#" },
+        ]
+    },
+    {
+        title: "Contacts",
+        items: [
+            { name: "support@setsquare.com" },
+            { name: "+8801800000000" },
+            { name: "Mohakhali, Dhaka, Dhaka-1200" },
+        ]
+    }
+])
+
+export { postData, projectData, whatWeDo, testimonial, videos, mediaFeature, footerData };
+
