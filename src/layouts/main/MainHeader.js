@@ -1,13 +1,13 @@
 import React from 'react';
+import MenuDesktop from './MenuDesktop';
+import MenuMobile from './MenuMobile';
 
 const MainHeader = () => {
     return (
-        <header>
-            <div className="main_header">
-                
-            </div>
-
-        </header>
+        <>
+            <MenuDesktop />
+            <MenuMobile />
+        </>
     );
 };
 

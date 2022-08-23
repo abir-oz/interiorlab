@@ -17,8 +17,7 @@ const CarouselVideo = () => {
                     pagination={{
                         clickable: true,
                     }}
-                    onSlideChange={() => console.log('slide change')}
-                    onSwiper={(swiper) => console.log(swiper)}
+                    lazy={true}
                     breakpoints={
                         {
                             320: {

@@ -14,7 +14,6 @@ const MainFooter = () => {
                 <br />
                 <p className='text-slate-400'>© 2021 The Interior Lab Pte Ltd. All rights reserved.</p>
             </div>
-
         </div>
     );
 };
