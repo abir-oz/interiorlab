@@ -1,5 +1,6 @@
 import React from 'react';
 import { whatWeDo } from '../../data/postData';
+import Button from '../Button';
 
 const WhatWeDo = () => {
     return (
@@ -23,7 +24,7 @@ const WhatWeDo = () => {
             </div>
 
             <div className='my-16 mx-auto text-center text-lg font-bold'>
-                <a className='uppercase px-8 py-4 text-white bg-ss-red-500' href="/contact-us">Get in touch with us</a>
+                <Button Href="/contact-us">Get in touch with us</Button>
             </div>
         </>
     );

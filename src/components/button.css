@@ -1,0 +1,17 @@
+.button-52 {
+  @apply text-lg font-display text-white font-extralight leading-none px-12 py-2 outline-0 border-solid border border-black cursor-pointer relative bg-black/[0.0] select-none touch-manipulation;
+}
+
+.button-52:after {
+  @apply content-[''] bg-ss-red-500 w-full -z-[1] absolute h-full top-[7px] left-[7px] duration-200;
+}
+
+.button-52:hover:after {
+  @apply top-0 left-0;
+}
+
+@media (min-width: 768px) {
+  .button-52 {
+    @apply px-20 py-3 text-2xl;
+  }
+}

@@ -1,15 +1,21 @@
-import React from 'react';
+import React, { lazy, Suspense } from 'react';
 import './App.css';
-import MainLayout from './layouts/main/MainLayout';
-import Home from './pages/Home';
-
+import Loading from './components/Loading';
+const Home = lazy(() => import('./pages/Home'));
+const Layout = lazy(() => {
+  return new Promise(resolve => {
+    setTimeout(() => resolve(import('./layouts/main/MainLayout')), 700);
+  });
+});
 const App = () => {
 
   return (
     <div className='selection:bg-ss-red-500'>
-      <MainLayout>
-        <Home />
-      </MainLayout>
+      <Suspense fallback={<Loading />}>
+        <Layout>
+          <Home />
+        </Layout>
+      </Suspense>
     </div>
   );
 };
