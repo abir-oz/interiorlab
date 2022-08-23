@@ -7,7 +7,7 @@ import MainLayout from './layouts/main/Index';
 const App = () => {
 
   return (
-    <div className='selection:bg-orange-300'>
+    <div className='selection:bg-ss-red-500'>
       <MainLayout>
         <Home />
       </MainLayout>

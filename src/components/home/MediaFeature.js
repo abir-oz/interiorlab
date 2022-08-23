@@ -15,6 +15,7 @@ const MediaFeature = () => {
                     spaceBetween={5}
                     slidesPerView={5}
                     autoplay
+                    lazy={true}
                     breakpoints={
                         {
                             320: {

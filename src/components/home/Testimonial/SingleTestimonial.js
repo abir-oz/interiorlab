@@ -38,7 +38,7 @@ const SingleTestimonial = ({ item }) => {
             <div className='mt-2 flex justify-center items-center'>
                 {
                     Array(item.review).fill(1).map((item, index) => (
-                        <FaStar key={index} className=' text-yellow-500 m-0.5' />
+                        <FaStar key={index} className='text-ss-red-500 m-0.5' />
                     ))
                 }
             </div>

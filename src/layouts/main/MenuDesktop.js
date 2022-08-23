@@ -20,7 +20,7 @@ const MenuDesktop = () => {
                         <nav className="relative py-[15px] z-[1]">
                             <ul className="list-none font-[700] leading-none p-0 -mx-2 text-black uppercase">
                                 {menuConfig.map((item, index) => (
-                                    <li className="inline-block mx-2 " key={index}><a className='hover:underline decoration-orange-600 decoration-[1.5px] underline-offset-[4px] transition-all duration-500' href={item.path}>{item.title}</a></li>
+                                    <li className="inline-block mx-2 " key={index}><a className='hover:underline decoration-ss-red-500 decoration-[1.5px] underline-offset-[4px] transition-all duration-500' href={item.path}>{item.title}</a></li>
                                 ))}
                             </ul>
 

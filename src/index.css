@@ -30,7 +30,7 @@ html {
   @apply inline-block w-2 h-2 rounded-full bg-black opacity-50 mx-1;
 }
 .swiper-pagination-bullet-active {
-  @apply bg-orange-500 pl-8;
+  @apply bg-ss-red-500 pl-8;
 }
 
 .swiper-pagination-clickable .swiper-pagination-bullet {

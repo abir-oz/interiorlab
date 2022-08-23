@@ -11,7 +11,7 @@ const HomeHero = () => {
                     <h2 className='font-bold xl:text-[3.25rem] text-[32px] mt-1 mx-0 leading-normal'>The Interior Lab – The Chemistry of Arts.</h2>
                     <h1 className='xl:text-[1.75rem] text-[18px] mt-3 mx-0 font-medium leading-6'>Leading Interior Design Firm in Singapore, Reputable for Innovative Solutions &amp; Pristine Workmanship</h1>
                     <div className='my-16'>
-                        <a href='/' className='uppercase bg-[#f8ad23] px-8 py-3 text-white font-bold text-base'>
+                        <a href='/' className='uppercase bg-ss-red-500 px-8 py-3 text-white font-bold text-base'>
                             Get in touch with us
                         </a>
                     </div>

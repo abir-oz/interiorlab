@@ -8,6 +8,15 @@ module.exports = {
       colors: {
         'light-blue': colors.lightBlue,
         cyan: colors.cyan,
+        'ss-red': {
+          50: '#bf161d',
+          100: '#cf171f',
+          200: '#df1a23',
+          300: '#e11923',
+          400: '#e61a23',
+          500: '#e91c23',
+          600: '#ee2e38',
+        }
       },
       backgroundImage: {
         beetle:

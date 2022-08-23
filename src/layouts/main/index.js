@@ -1,4 +1,4 @@
-import React, { Children } from 'react';
+import React from 'react';
 import MainFooter from './MainFooter';
 import MainHeader from './MainHeader';
 import TopBar from './TopBar';
