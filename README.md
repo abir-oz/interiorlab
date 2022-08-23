@@ -1,4 +1,4 @@
-# <h1 align="center"> The Interior Lab </h1>
+# <h1 align="center"> Set Square </h1>
 
 > #### Navigation Bar:
 

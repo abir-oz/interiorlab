@@ -93,7 +93,7 @@ const whatWeDo = ([
 const testimonial = ([
     {
         heading: "A Comfortable and Perfect Home",
-        content: "We have decided to renovate our new unit and took up my sis in law’s recommendation to engage ID Yen from The Interior Lab who had done up the renovation for her, after listened to her positive feedback. We would like to thank Yen for taking her time to active listening to our requirements and raised questions",
+        content: "We have decided to renovate our new unit and took up my sis in law’s recommendation to engage ID Yen from Set Square who had done up the renovation for her, after listened to her positive feedback. We would like to thank Yen for taking her time to active listening to our requirements and raised questions",
         thumb: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80",
         name: "Yen",
         review: 5

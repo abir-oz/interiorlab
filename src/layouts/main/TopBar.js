@@ -9,7 +9,7 @@ const TopBar = () => {
                     <div className="xl:w-8/12 w-full">
                         <div className='relative text-center text-xs px-3'>
                             <a href="tel:6345 6372"><span className="call-button">6345 6372</span> </a>
-                            | 86 Joo Chiat Place, Singapore 427803 | HDB: HB-05-4684B
+                            | 86 Joo Chiat Place, Bangladesh 427803 | HDB: HB-05-4684B
                         </div>
                     </div>
 

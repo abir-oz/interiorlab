@@ -55,3 +55,19 @@ html {
 .slide-leave-active {
   transform: translateY(-100%);
 }
+
+.footer-main {
+  @apply capitalize;
+}
+
+.footer-main h4 {
+  @apply font-bold;
+}
+
+.footer-main ul {
+  @apply mt-3 text-slate-700;
+}
+
+.footer-main ul li {
+  @apply block text-sm mt-2 font-medium;
+}

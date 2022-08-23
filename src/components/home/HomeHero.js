@@ -8,8 +8,8 @@ const HomeHero = () => {
             <div className="flex flex-wrap justify-center items-center xl:mx-0 mx-5 xl:mt-32 lg:mt-24 md:mt-16 mt-10  px-0 not-italic font-display tracking-wider">
                 <div className='text-left'>
                     <h5 className=' font-bold text-[18px] xl:text-2xl mb-0 mx-0 leading-none'>Welcome to</h5>
-                    <h2 className='font-bold xl:text-[3.25rem] text-[32px] mt-1 mx-0 leading-normal'>The Interior Lab – The Chemistry of Arts.</h2>
-                    <h1 className='xl:text-[1.75rem] text-[18px] mt-3 mx-0 font-medium leading-6'>Leading Interior Design Firm in Singapore, Reputable for Innovative Solutions &amp; Pristine Workmanship</h1>
+                    <h2 className='font-bold xl:text-[3.25rem] text-[32px] mt-1 mx-0 leading-normal'>Set Square – The Chemistry of Arts.</h2>
+                    <h1 className='xl:text-[1.75rem] text-[18px] mt-3 mx-0 font-medium leading-6'>Leading Interior Design Firm in Bangladesh, Reputable for Innovative Solutions &amp; Pristine Workmanship</h1>
                     <div className='my-16'>
                         <a href='/' className='uppercase bg-ss-red-500 px-8 py-3 text-white font-bold text-base'>
                             Get in touch with us
