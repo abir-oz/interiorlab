@@ -1,6 +1,6 @@
 import React from 'react';
-import { FaEnvelope, FaFacebook, FaFacebookSquare, FaInstagram, FaLinkedin, FaMapMarker, FaPhone, FaTwitter, FaTwitterSquare, FaWhatsapp, FaYoutube, FaYoutubeSquare } from 'react-icons/fa';
-import logo from '../../assets/logo.jpg'
+import { FaFacebook, FaInstagram, FaLinkedin, FaTwitter, FaWhatsapp, FaYoutube } from 'react-icons/fa';
+import logo from '../../assets/logo.jpg';
 
 const MainFooter = () => {
     return (

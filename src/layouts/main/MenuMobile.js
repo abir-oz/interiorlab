@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
-import logo from '../../assets/logo.jpg'
+import { AiFillCloseCircle, AiOutlineMenuFold } from 'react-icons/ai';
+import logo from '../../assets/logo.jpg';
 import menuConfig from './MenuConfig';
-import { AiOutlineMenuFold, AiFillCloseCircle } from 'react-icons/ai'
 
 const MenuMobile = () => {
     const [showBurger, setShowBurger] = useState(false);

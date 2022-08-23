@@ -1,6 +1,6 @@
 import React from 'react';
+import logo from '../../assets/logo.jpg';
 import menuConfig from './MenuConfig';
-import logo from '../../assets/logo.jpg'
 
 
 const MenuDesktop = () => {

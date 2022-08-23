@@ -1,4 +1,4 @@
-import { HomeHero, Projects, WhatWeDo, Testimonial, Text, MediaFeature, CarouselVideo, OurAccreditation } from "../components/home";
+import { CarouselVideo, HomeHero, MediaFeature, OurAccreditation, Projects, Testimonial, Text, WhatWeDo } from "../components/home";
 
 import React from 'react';
 
