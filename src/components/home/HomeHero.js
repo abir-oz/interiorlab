@@ -2,7 +2,6 @@ import React from 'react';
 import { postData } from '../../data/postData';
 
 const HomeHero = () => {
-    // console.log(postData);
     return (
         <>
             <div className="flex flex-wrap justify-center items-center xl:mx-0 mx-5 xl:mt-32 lg:mt-24 md:mt-16 mt-10  px-0 not-italic font-display tracking-wider">

@@ -1,7 +1,7 @@
 import './App.css';
 
 import React from 'react';
-import Home from './pages/Home';
+import Home from './sitePages/Home';
 import MainLayout from './layouts/main/Index';
 
 const App = () => {
