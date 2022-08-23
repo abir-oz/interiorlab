@@ -30,11 +30,11 @@ const MainFooter = () => {
                         </div>
                     </div>
 
-                    <div className="w-3/5 lg:mt-24">
+                    <div className="w-full lg:w-3/5 lg:mt-24 text-center md:text-left">
                         <div className='xl:mx-28 lg:mx-12 my-4 flex flex-wrap justify-center'>
                             {
                                 footerData.map((item, index) => (
-                                    <div key={index} className="lg:w-1/3 w-full md:mt-3 mt-3">
+                                    <div key={index} className="md:w-1/3 w-full md:mt-3 mt-3">
                                         <h4>
                                             <span className='text-ss-red-400'>{item.title}</span>
                                         </h4>
@@ -52,36 +52,6 @@ const MainFooter = () => {
                                     </div>
                                 ))
                             }
-                            {/* <div className="lg:w-1/3 w-full md:mt-3 mt-3">
-                                <h4>
-                                    <span className='text-ss-red-400'>Set Square</span>
-                                </h4>
-                                <div>
-                                    <ul>
-                                        <li>About Us</li>
-                                        <li>Contact Us</li>
-                                        <li>FAQs</li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div className="lg:w-1/3 w-full md:mt-0 mt-3">
-                                <h4>
-                                    <span className='text-ss-red-400'>Legal</span>
-                                </h4>
-                                <ul>
-                                    <li>Terms and Conditions</li>
-                                    <li>Privacy Policy</li>
-                                </ul>
-                            </div>
-                            <div className="lg:w-1/3 w-full md:mt-0 mt-3">
-                                <h4>
-                                    <span className='text-ss-red-400'>Contacts</span>
-                                </h4>
-                                <ul>
-                                    <li>support@setsquare.com</li>
-                                    <li>Dhaka, Bangladesh</li>
-                                </ul>
-                            </div> */}
                         </div>
                     </div>
                 </div>
