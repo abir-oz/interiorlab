@@ -43,8 +43,8 @@ h6 {
 
 > #### Pages
 
-- [ ] Home: `/home`
-- [ ] About: `/about`
+- [x] Home: `/home`
+- [x] About: `/about`
 - [ ] Our Works: `/our-works`
 - [ ] Careers: `/careers`
 - [ ] Testimonials: `/testimonials`
