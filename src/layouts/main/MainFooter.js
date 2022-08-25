@@ -1,12 +1,13 @@
 import React from 'react';
 import { FaFacebook, FaInstagram, FaLinkedin, FaTwitter, FaWhatsapp, FaYoutube } from 'react-icons/fa';
+import { Link } from 'react-router-dom';
 import logo from '../../assets/logo.jpg';
-import { footerData } from '../../data/postData';
+import { footerContact, footerData } from '../../data/postData';
 
 const MainFooter = () => {
     return (
         <>
-            <div className='w-full h-full bg-white border-t border-t-gray-300 footer-main'>
+            <div className='w-full h-96 bg-white border-t border-t-gray-300 footer-main'>
                 <div className='lg:p-16 p-8 flex flex-wrap justify-center'>
                     <div className="lg:w-2/5 w-full">
                         <div className='xl:mx-24 lg:mx-16 my-4 text-center md:text-left'>
@@ -33,25 +34,41 @@ const MainFooter = () => {
                     <div className="w-full lg:w-3/5 lg:mt-24 text-center md:text-left">
                         <div className='xl:mx-28 lg:mx-12 my-4 flex flex-wrap justify-center'>
                             {
-                                footerData.map((item, index) => (
+                                footerData.map((menu, index) => (
                                     <div key={index} className="md:w-1/3 w-full md:mt-3 mt-3">
                                         <h4>
-                                            <span className='text-ss-red-400'>{item.title}</span>
+                                            <span className='text-ss-red-400'>{menu.title}</span>
                                         </h4>
                                         <div>
                                             <ul>
                                                 {
-                                                    item.items.map((li, key) => (
+                                                    menu.list.map((li, key) => (
                                                         <li key={key}>
-                                                            <a href={li.url}>{li.name}</a>
+                                                            <Link to={li.url} className="hover:underline decoration-ss-red-500">{li.name}</Link>
                                                         </li>))
 
                                                 }
                                             </ul>
                                         </div>
                                     </div>
+
                                 ))
                             }
+                            <div className="md:w-1/3 w-full md:mt-3 mt-3">
+                                <h4>
+                                    <span className='text-ss-red-400'>{footerContact.title}</span>
+                                </h4>
+                                <div>
+                                    <ul>
+                                        {
+                                            footerContact.list.map((li, key) => (
+                                                <li key={key}>
+                                                    <a href={li.url} className="hover:underline decoration-ss-red-500">{li.name}</a>
+                                                </li>))
+                                        }
+                                    </ul>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>

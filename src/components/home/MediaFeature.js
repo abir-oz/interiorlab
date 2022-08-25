@@ -1,15 +1,16 @@
 import React from 'react';
+import { Autoplay, Lazy, Navigation, Pagination } from 'swiper';
 import { Swiper, SwiperSlide } from 'swiper/react';
-import { Navigation, Pagination, Lazy, Autoplay } from 'swiper';
 // Import Swiper styles
 import 'swiper/css';
 import { mediaFeature } from '../../data/postData';
+import CommonHeader from '../CommonHeader';
 
 const MediaFeature = () => {
     return (
         <div className="w-full md:mt-10">
             <div className='xl:mx-40 md:mx-10 mx-2 text-center relative'>
-                <h3 className='uppercase m-0 font-bold font-display text-lg tracking-wide'>Media Feature</h3>
+                <CommonHeader>Media Feature</CommonHeader>
                 <Swiper
                     modules={[Navigation, Pagination, Lazy, Autoplay]}
                     spaceBetween={5}

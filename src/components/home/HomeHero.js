@@ -1,7 +1,6 @@
 import React from 'react';
 import { postData } from '../../data/postData';
 import Button from '../Button';
-
 const HomeHero = () => {
     return (
         <>
@@ -11,9 +10,6 @@ const HomeHero = () => {
                     <h2 className='font-bold xl:text-[3.25rem] text-[32px] mt-1 mx-0 leading-normal'>Set Square – The Chemistry of Arts.</h2>
                     <h1 className='xl:text-[1.75rem] text-[18px] mt-3 mx-0 font-medium leading-6'>Leading Interior Design Firm in Bangladesh, Reputable for Innovative Solutions &amp; Pristine Workmanship</h1>
                     <div className='lg:my-16 mt-8'>
-                        {/* <a href='/' className='uppercase bg-ss-red-500 px-8 py-3 text-white font-bold text-base'>
-                            Get in touch with us
-                        </a> */}
                         <Button Href={'/'}>Get in touch with us</Button>
                     </div>
                 </div>

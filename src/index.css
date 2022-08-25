@@ -6,6 +6,10 @@
   src: url(./assets/oswald.ttf) format('truetype');
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 h1,
 h2,
 h3,
@@ -21,6 +25,13 @@ html {
 
 * {
   @apply box-border;
+}
+
+.nav_link {
+  @apply hover:underline decoration-ss-red-500 decoration-[1.5px] underline-offset-[4px] transition-all duration-700;
+}
+.active {
+  @apply underline decoration-ss-red-500 decoration-[1.5px] underline-offset-[4px];
 }
 
 .swiper-pagination {
@@ -70,4 +81,11 @@ html {
 
 .footer-main ul li {
   @apply block text-sm mt-2 font-medium;
+}
+
+.accordion-content {
+  transition: max-height 0.3s ease-out, padding 0.3s ease;
+}
+.page_header {
+  transition: max-height 0.3s ease-out, padding 0.3s ease, opacity 0.3s ease;
 }

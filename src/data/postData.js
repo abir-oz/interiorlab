@@ -153,28 +153,30 @@ const mediaFeature = ([
 const footerData = ([
     {
         title: "Set Square",
-        items: [
-            { name: "About Us", url: "/#" },
-            { name: "Contact Us", url: "/#" },
-            { name: "FAQ", url: "/#" },
+        list: [
+            { name: "About Us", url: "/about" },
+            { name: "Contact Us", url: "/contact" },
+            { name: "FAQ", url: "/faq" },
         ]
     },
     {
         title: "Legal",
-        items: [
-            { name: "Privacy Policy", url: "/#" },
-            { name: "Terms of Use", url: "/#" },
+        list: [
+            { name: "Privacy Policy", url: "/privacy-policy" },
+            { name: "Terms of Use", url: "/terms-of-use" },
         ]
     },
-    {
-        title: "Contacts",
-        items: [
-            { name: "support@setsquare.com" },
-            { name: "+8801800000000" },
-            { name: "Mohakhali, Dhaka, Dhaka-1200" },
-        ]
-    }
+
 ])
 
-export { postData, projectData, whatWeDo, testimonial, videos, mediaFeature, footerData };
+const footerContact = {
+    title: "Contacts",
+    list: [
+        { name: "support@setsquare.com", url: "mailto:" },
+        { name: "+8801800000000", url: "/#" },
+        { name: "Mohakhali, Dhaka, Dhaka-1200", url: "/#" },
+    ]
+}
+
+export { postData, projectData, whatWeDo, testimonial, videos, mediaFeature, footerData, footerContact };
 

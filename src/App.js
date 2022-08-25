@@ -1,6 +1,8 @@
 import React, { lazy, Suspense } from 'react';
+import { Route, Routes } from 'react-router-dom';
 import './App.css';
 import Loading from './components/Loading';
+import About from './pages/About';
 const Home = lazy(() => import('./pages/Home'));
 const Layout = lazy(() => {
   return new Promise(resolve => {
@@ -13,7 +15,10 @@ const App = () => {
     <div className='selection:bg-ss-red-500'>
       <Suspense fallback={<Loading />}>
         <Layout>
-          <Home />
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/about" element={<About />} />
+          </Routes>
         </Layout>
       </Suspense>
     </div>

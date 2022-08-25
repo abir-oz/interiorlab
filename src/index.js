@@ -1,14 +1,17 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
+import { BrowserRouter } from 'react-router-dom';
+import { ParallaxProvider } from 'react-scroll-parallax';
 import App from './App';
+import './index.css';
 import reportWebVitals from './reportWebVitals';
-
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
+  <ParallaxProvider>
+    <BrowserRouter>
+      <App />
+    </BrowserRouter>
+  </ParallaxProvider>
 );
 
 // If you want to start measuring performance in your app, pass a function

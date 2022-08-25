@@ -4,7 +4,6 @@ import MainHeader from './MainHeader';
 import TopBar from './TopBar';
 
 const MainLayout = ({ children }) => {
-    console.log(children);
     return (
         <>
             <TopBar />
