@@ -8,12 +8,12 @@ const AccordionItem = () => {
         e.preventDefault();
         setIsActive((prevState) => !prevState);
 
-        isActive ? setMaxHeight("max-h-0") : setMaxHeight("max-h-40");
+        isActive ? setMaxHeight("max-h-0") : setMaxHeight("max-h-96");
     }
     return (
         <div className="transition my-1">
             {/* Accordion Header */}
-            <div onClick={clickHandler} className="cursor-pointer transition flex bg-gray-50 space-x-5 p-4 m-2 items-center max-h-32">
+            <div onClick={clickHandler} className="cursor-pointer transition flex bg-gray-50 space-x-5 md:p-4 p-2 m-2 items-center max-h-32">
                 <span>{isActive ? <FaChevronUp /> : <FaChevronUp className='-scale-y-90 transition-all duration-300' />}</span>
                 <h3> What is term?</h3>
             </div>
