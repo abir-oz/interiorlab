@@ -1,14 +1,14 @@
 import React from 'react';
 import AboutUs from '../components/about/AboutUs';
-import Accordion from '../components/Accordion/Accordion';
+import Accordion from '../components/accordion/Accordion';
 import { MediaFeature, OurAccreditation, WhatWeDo } from '../components/home';
 import Page from '../components/Page';
-import PagesHeader from '../components/PagesHeader';
+import ParallaxHeader from '../components/ParallaxHeader';
 
 const About = () => {
     return (
         <Page title="About Us">
-            <PagesHeader>About</PagesHeader>
+            <ParallaxHeader>About</ParallaxHeader>
             <AboutUs />
             <WhatWeDo />
             <Accordion />

@@ -5,7 +5,7 @@ const Page = ({ title, children }) => {
     return (
         <>
             <Helmet>
-                <title>{title} | Set Square  </title>
+                <title>{title ? title : ""} | Set Square  </title>
                 <meta name="description" content="Set Square is an Architectural Company" />
                 <link rel="canonical" href="https://setsquare.vercel.app/" />
             </Helmet>

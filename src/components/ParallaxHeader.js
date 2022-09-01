@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 import { useParallax } from 'react-scroll-parallax';
 
-const PagesHeader = ({ children }) => {
+const ParallaxHeader = ({ subheader, children }) => {
 
 
     const parallax = useParallax({
@@ -19,26 +19,25 @@ const PagesHeader = ({ children }) => {
             } else {
                 pageHeader.style.maxHeight = pageHeaderHeight + 'px';
             }
-            console.log(scrolled, pageHeaderHeight, pageHeaderHeight - scrolled, pageHeader.style.maxHeight);
-
         }
         window.addEventListener('scroll', scrollHandler);
     }, []);
     return (
         <div ref={parallax.ref}>
             <div className={`w-full max-h-96 overflow-hidden transition duration-1000 page_header`}>
-                <div className="px-20 mx-20">
-                    <div className="flex flex-wrap justify-center items-center">
-                        <div className='md:my-32 my-16 text-center'>
-                            <h1 className='capitalize lg:text-5xl md:text-4xl text-2xl tracking-wider font-display font-normal leading-tight mb-5'>{children}</h1>
-                            <div className='md:w-64 w-32 border-t-black border-2'>
-                            </div>
+                <div className="flex flex-col justify-center items-center md:my-32 my-16">
+                    <div className='text-center'>
+                        <h1 className='capitalize lg:text-4xl md:text-3xl text-2xl tracking-wider font-display font-normal leading-tight text-gray-900 mb-8 mx-12'>{children}</h1>
+                        <div className='h_border w-auto bg-gray-900 h-[1.2px]'>
                         </div>
                     </div>
+                    {
+                        subheader && <h4 className='text-xl leading-none font-light tracking-wider text-slate-500 mt-6'>{subheader}</h4>
+                    }
                 </div>
             </div>
         </div>
     );
 };
 
-export default PagesHeader;
+export default ParallaxHeader;

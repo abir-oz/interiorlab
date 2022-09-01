@@ -6,7 +6,7 @@ const WhatWeDo = () => {
     return (
         <>
             <div className="w-full my-10">
-                <div className="flex flex-wrap justify-center items-center lg:mx-20 md:mx-10">
+                <div className="xl:px-24 xl:mx-24 lg:mx-8 md:px-3 lg:px-8 md:mx-3 mx-3 px-3 flex flex-wrap justify-center items-center">
                     {
                         whatWeDo.map((item, index) => (
                             <div key={index} className='md:w-1/3 w-full'>

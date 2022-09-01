@@ -3,6 +3,8 @@ import { Route, Routes } from 'react-router-dom';
 import './App.css';
 import Loading from './components/Loading';
 import About from './pages/About';
+import OurWorks from './pages/OurWorks';
+import SingleWorks from './pages/SingleWorks';
 const Home = lazy(() => import('./pages/Home'));
 const Layout = lazy(() => {
   return new Promise(resolve => {
@@ -18,6 +20,8 @@ const App = () => {
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/about" element={<About />} />
+            <Route path="/our-works" element={<OurWorks />} />
+            <Route path="/single" element={<SingleWorks />} />
           </Routes>
         </Layout>
       </Suspense>

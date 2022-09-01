@@ -33,6 +33,9 @@ html {
 .active {
   @apply underline decoration-ss-red-500 decoration-[1.5px] underline-offset-[4px];
 }
+.swiper-wrapper {
+  @apply flex items-center;
+}
 
 .swiper-pagination {
   @apply mt-6;
@@ -84,7 +87,7 @@ html {
 }
 
 .accordion-content {
-  transition: max-height 0.3s ease-out, padding 0.3s ease;
+  transition: max-height 0.7s ease-out, padding 0.7s ease;
 }
 .page_header {
   transition: max-height 0.3s ease-out, padding 0.3s ease, opacity 0.3s ease;

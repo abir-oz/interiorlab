@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { AiFillCloseCircle, AiOutlineMenuFold } from 'react-icons/ai';
+import { Link } from 'react-router-dom';
 import logo from '../../assets/logo.jpg';
 import menuConfig from './MenuConfig';
 
@@ -20,9 +21,9 @@ const MenuMobile = () => {
             className="flex justify-between items-center top-0 px-4 bg-white z-40  lg:hidden py-3 font-display relative">
 
             <div className='mx-auto'>
-                <a href="/">
+                <Link to="/">
                     <img src={logo} alt="logo" className="h-28" />
-                </a>
+                </Link>
             </div>
 
             <button className="absolute right-7" id="nav_open" onClick={toggleNav}>
@@ -41,8 +42,8 @@ const MenuMobile = () => {
                     <div className="flex flex-col ml-12 mt-20">
                         <div className="inline-block">
                             {menuConfig.map((item, index) => (
-                                <li key={index} className="relative z-10 text-xl font-light"><a href={item.path}
-                                    className="inline-block h-full w-full">{item.title}</a>
+                                <li key={index} className="relative z-10 text-xl font-light"><Link to={item.path}
+                                    className="inline-block h-full w-full">{item.title}</Link>
                                 </li>
                             ))}
 

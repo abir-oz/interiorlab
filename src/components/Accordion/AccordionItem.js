@@ -14,7 +14,7 @@ const AccordionItem = () => {
         <div className="transition my-1">
             {/* Accordion Header */}
             <div onClick={clickHandler} className="cursor-pointer transition flex bg-gray-50 space-x-5 md:p-4 p-2 m-2 items-center max-h-32">
-                <span>{isActive ? <FaChevronUp /> : <FaChevronUp className='-scale-y-90 transition-all duration-300' />}</span>
+                <span>{isActive ? <FaChevronUp className='md:text-lg text-xs' /> : <FaChevronUp className='md:text-lg text-xs -scale-y-90 transition-all duration-300' />}</span>
                 <h3> What is term?</h3>
             </div>
 
