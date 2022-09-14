@@ -16,7 +16,7 @@ const Projects = () => (
                             </div>
 
                             <h3 className="uppercase font-display tracking-wider text-base font-bold my-4 mb-3 group-hover:text-ss-red-500">
-                                <Link to="{`/${item.title}`}">
+                                <Link to="/single">
                                     {item.title}
                                 </Link>
                             </h3>

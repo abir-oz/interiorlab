@@ -1,9 +1,7 @@
 import React from 'react';
 import AccordionItem from './AccordionItem';
 
-const Accordion = (e) => {
-
-
+const Accordion = () => {
     return (
         <div className="m-h-screen my-10 grid place-items-center">
             <h3 className='uppercase m-0 font-bold font-display text-2xl tracking-wide'>FAQ</h3>

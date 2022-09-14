@@ -12,13 +12,11 @@ const AccordionItem = () => {
     }
     return (
         <div className="transition my-1">
-            {/* Accordion Header */}
             <div onClick={clickHandler} className="cursor-pointer transition flex bg-gray-50 space-x-5 md:p-4 p-2 m-2 items-center max-h-32">
                 <span>{isActive ? <FaChevronUp className='md:text-lg text-xs' /> : <FaChevronUp className='md:text-lg text-xs -scale-y-90 transition-all duration-300' />}</span>
                 <h3> What is term?</h3>
             </div>
 
-            {/* Accordion Content */}
             <div className={`accordion-content px-5 pt-0 overflow-hidden ${maxHeight}`}>
                 <p className="leading-6 font-light pl-9 text-justify">
                     Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis dolore nulla accusamus vel voluptates. Veritatis officia fuga esse sapiente repudiandae?
