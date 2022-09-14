@@ -6473,6 +6473,11 @@ performance-now@^2.1.0:
   resolved "https://registry.yarnpkg.com/performance-now/-/performance-now-2.1.0.tgz#6309f4e0e5fa913ec1c69307ae364b4b377c9e7b"
   integrity sha512-7EAHlyLHI56VEIdK57uwHdHKIaAGbnXPiw0yWbarQZOKaKpvUIgW0jWRVLiatnM+XXlSwsanIBH/hzGMJulMow==
 
+photoswipe@^5.3.2:
+  version "5.3.2"
+  resolved "https://registry.yarnpkg.com/photoswipe/-/photoswipe-5.3.2.tgz#814d26197ba59076828ddefd41b7f9ed5eb355a8"
+  integrity sha512-QJrf0kGa3tYX3sUascZymkT+ZIkgw8YNcwL+hGqoLTyphcn9vSTEab7tmCnA1tthgVzWQRgPjX9psuk7yFrTcA==
+
 picocolors@^0.2.1:
   version "0.2.1"
   resolved "https://registry.yarnpkg.com/picocolors/-/picocolors-0.2.1.tgz#570670f793646851d1ba135996962abad587859f"
@@ -7298,6 +7303,11 @@ react-is@^18.0.0:
   version "18.2.0"
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-18.2.0.tgz#199431eeaaa2e09f86427efbb4f1473edb47609b"
   integrity sha512-xWGDIW6x921xtzPkhiULtthJHoJvBbF3q26fzloPCK0hsvxtPVelvftw3zjbHWSkR2km9Z+4uxbDDK/6Zw9B8w==
+
+react-photoswipe-gallery@^2.2.1:
+  version "2.2.1"
+  resolved "https://registry.yarnpkg.com/react-photoswipe-gallery/-/react-photoswipe-gallery-2.2.1.tgz#ec79d99424e56b3a949aae369bbd1b458f6e474c"
+  integrity sha512-xaUKKmwRLCpEzB8+bU7yxjXvRBHaInpBcI6YQY0UOeFctHAL3jGRDk9j2YbwmlgN7kRStHTcyrSNxr+zSaOnKg==
 
 react-player@^2.10.1:
   version "2.10.1"

@@ -32,7 +32,7 @@ const ParallaxHeader = ({ subheader, children }) => {
                         </div>
                     </div>
                     {
-                        subheader && <h4 className='text-xl leading-none font-light tracking-wider text-slate-500 mt-6'>{subheader}</h4>
+                        subheader && <h4 className='text-xl leading-none font-light tracking-wider text-gray-500 mt-6'>{subheader}</h4>
                     }
                 </div>
             </div>

@@ -1,5 +1,5 @@
 .button-52 {
-  @apply text-lg font-display text-white font-extralight leading-none px-12 py-2 outline-0 border-solid border border-black cursor-pointer relative bg-black/[0.0] select-none touch-manipulation;
+  @apply text-lg font-display text-white font-extralight leading-none px-12 py-2 outline-0 border-solid border-2 border-slate-700 cursor-pointer relative bg-black/[0.0] select-none touch-manipulation;
 }
 
 .button-52:after {
